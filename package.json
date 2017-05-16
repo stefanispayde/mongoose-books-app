@@ -4,7 +4,8 @@
   "description": "### Base Challenges - Build an Express App",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   "homepage": "https://github.com/sf-wdi-labs/express-intro#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "express": "^4.13.3"
-  }
+    "express": "^4.13.3",
+    "mongoose": "^4.9.9"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
